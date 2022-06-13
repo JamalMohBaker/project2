@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            background-color: aqua;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="change1()">One</button><br>
+        <button onclick="change2()">Two</button><br>
+        <button onmousemove="change3()">Three</button><br>
+        <button ondblclick="change4()">Four</button><br>
+        <button onmousemove="change5()">Five</button><br>
+        <button onclick="sum()">six</button>
+        <button onclick="iff()">Seven</button>
+        
+    </div>
+    <script>
+
+        function change1() {
+            document.body.style.backgroundColor='yellow';
+        }
+        
+
+        function change2() {
+            document.body.style.backgroundColor='red';
+        }
+
+        function change3() {
+            document.body.style.backgroundColor='blue';
+        }
+        
+
+        function change4() {
+            document.body.style.backgroundColor='black';
+        }
+
+        function change5() {
+            document.body.style.backgroundColor='brown';
+        }
+        
+        function sum() {
+            let l=5;
+            let m=10;
+             document.write(l+m);
+        }
+        function iff() {
+            for(let i=0;i<5;i++){
+                document.write("Welcome To GSG");
+                document.write("<br>");
+            }
+        }
+      
+    </script>
+</body>
+</html>
